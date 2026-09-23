@@ -61,9 +61,11 @@ substitution strategy, the run manifest and exit codes in full.
 
 Each release is measured against a synthetic test set of letters, forms, bank
 statements and payslips in Word, Excel, native PDF and scanned PDF form, where
-every planted item of PII is checked individually. Release 0.2.1 removed
-1,622 of 1,623 planted items (99.9%) and left all 2,212 ordinary text items
-that should be kept unchanged.
+every planted item of PII is checked individually. Release 0.2.2 removed all
+1,623 planted items and left all 2,212 ordinary text items unchanged. On a
+second, larger test set that was not used while tuning detection (different
+people and identifiers, including multi-page documents), it removed 1,952 of
+1,965 planted items (99.3%) and again left every ordinary text item unchanged.
 
 These figures describe synthetic documents. Real documents vary, and detection
 will miss some PII and flag some text that is not PII. Review every output
