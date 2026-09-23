@@ -61,7 +61,7 @@ substitution strategy, the run manifest and exit codes in full.
 
 Each release is measured against a synthetic test set of letters, forms, bank
 statements and payslips in Word, Excel, native PDF and scanned PDF form, where
-every planted item of PII is checked individually. Release 0.2.0 removed
+every planted item of PII is checked individually. Release 0.2.1 removed
 1,622 of 1,623 planted items (99.9%) and left all 2,212 ordinary text items
 that should be kept unchanged.
 
@@ -86,4 +86,4 @@ personal data; describe the layout or share a synthetic example instead.
 
 ## Licence
 
-[MIT](LICENSE).
+[MIT](LICENSE). Copyright (c) 2026 Covecta Ltd.
