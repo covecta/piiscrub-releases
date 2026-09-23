@@ -86,4 +86,4 @@ personal data; describe the layout or share a synthetic example instead.
 
 ## Licence
 
-[MIT](LICENSE). Copyright (c) 2026 Mark Hammond.
+[MIT](LICENSE).
